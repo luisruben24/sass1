@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto+Slab:wght@200;300;400&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* COLOR */
+
+body {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+h1 {
+       background-color: #712a49;
+       text-transform: uppercase;
+       color: rgb(228, 220, 220);
+       text-align: center;
+       font-size: 5rem;
+       border: 4px rgb(241, 232, 161) solid;
+}
+
+footer {
+    color: #9C6459;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+h3 {
+    color: #9C6459;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section {
+    color: #9C6459;
+}
+/* TEXTO */
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section  {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: rgb(187, 48, 48);
+     display: inline;
+     font-size: 1rem;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+   }
+
+.logo {
+    width: 100px; 
+
+}
+.imagen {
+    width: 600px;
+    text-align: center;
+}
+
+.bienvenido {
+    background-color: #712a49;
+    text-align: center;
+    color: rgb(228, 220, 220);
+}
+
+.opciones {
+    color: #712a49 solid;
+    display: flex;
+    justify-content: space-evenly;
+    color: #9C6459;
+    font-size: 2.5rem;
+}
+
+.imagenesMerey {
+    width: 1500px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+.semillaDeMerey {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.botonWhatsapp img {
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.textoPrincipal {
+    font-size: 1rem;
+    color: black ;
+    font-weight: bold;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 4px rgb(241, 232, 161) solid;
+}
+
+.merey {
+    width: 1000px;
+    justify-content: center;
+    text-align: center;
+}
+
+.carrusel {
+    justify-content: center;
+    text-align: center;
+}
+
+.colorNavbar {
+    background-color: rgba(238, 232, 232, 0.838);
+}
+
+.fuentes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #712a49;
+}
+
+/* MODAL */
+
+.colorBoton {
+    background-color: #712a49;
+    color: aliceblue;
+}
+
+.row {
+    border: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    color: #712a49;
+}
